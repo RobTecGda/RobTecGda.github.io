@@ -1,0 +1,167 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+/* Global styles
+-----------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+.column-narrow {
+    width: 40%;
+    float: left;
+    /*padding-right: 3%;*/
+    /*border: 1px solid black;*/
+    /*min-height: 160px;*/
+}
+
+.column-wide {
+    width: 60%;
+    float: left;
+    /*border: 1px solid black;*/
+    /*min-height: 160px;*/
+    padding-left: 3%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.button {
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Header and Footer Styles
+-----------------------------------------------*/
+header, footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+}
+
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    margin: 10px;
+}
+
+.profile-img {
+    /*width: 300px;*/
+    border-radius: 50%;
+    /*object-fit: cover;*/
+    /*float: left;*/
+    /*margin-right: 30px; */
+}
+
+/* Navigation
+----------------------------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+/* Work Styles
+-----------------------------------------------*/
+.work {
+    background: #EDF2F4;
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* Education Styles
+-----------------------------------------------*/
+.education {
+    background: #8D99AE; /*EDF2F4;*/
+    /*color: #30096C7;*/
+}
+
+p * h3 {
+    margin-top: 30px;
+}
